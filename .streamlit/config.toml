@@ -1,0 +1,13 @@
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "white"
+
+# 
+# #E7E3D2
+# 
+
+# Background color used for most interactive widgets.
+secondaryBackgroundColor = "#E7E3D2"
+
+# Color used for almost all text.
+# textColor =
