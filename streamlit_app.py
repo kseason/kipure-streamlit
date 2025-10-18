@@ -1,6 +1,11 @@
 import streamlit as st
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+
+pages = {
+    "カテゴリー１": [
+        st.Page("pages/sample.py", title="サンプル"),
+    ],
+}
+
+pg = st.navigation(pages)
+pg.run()
