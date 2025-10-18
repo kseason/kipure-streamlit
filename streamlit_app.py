@@ -2,8 +2,9 @@ import streamlit as st
 
 
 pages = {
-    "カテゴリー１": [
-        st.Page("pages/sample.py", title="サンプル"),
+    "menu": [
+        st.Page("pages/00_about.py", title="top"),
+        st.Page("pages/01_image.py", title="画像"),
     ],
 }
 
