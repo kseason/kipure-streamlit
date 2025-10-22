@@ -20,6 +20,7 @@ with st.container(width="stretch",border=True):
 st.image("media/image/sunshain300.png", caption="朝日を浴びる",output_format="PNG")
 
 
+
 st.html('''
 <style>
 .kipure_btn {
@@ -38,5 +39,13 @@ st.html('''
 </style>
         
 
-<a class="kipure_btn" href="https://www.kipure.com/article/449/">解説ページへ</a>
+<a class="kipure_btn" href="https://www.kipure.com/article/449/" target="_blank">解説ページへ</a>
+<a class="kipure_btn" href="https://www.kipure.com/article/449/" target="_top">解説ページへ</a>
+
 ''')
+
+
+
+
+
+
