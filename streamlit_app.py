@@ -11,3 +11,12 @@ pages = {
 
 pg = st.navigation(pages)
 pg.run()
+
+with st.sidebar:
+    st.write("st.version:", st.__version__)
+
+st.logo(
+    image="media/image/common/logo_g.png",
+    link="https://www.kipure.com/",
+    size="large",
+)
